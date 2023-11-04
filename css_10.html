@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="mycss4.css">
+    <style>
+        h1{
+            color: rgb(56, 56, 160);
+            border-style: groove;
+            border-color: blue;
+            border-width: 3px;
+            border-radius: 10px;
+            
+        }
+        #main{
+            background-color: rgb(83, 129, 214);
+            opacity: 0.4;
+        }
+        .p1{
+            color:darkcyan ;
+           
+        }
+        *{
+            background-color: aqua;
+            color:darkcyan;
+        }
+        p.p2{
+            color: darkcyan;
+            border: 5px solid red;
+        }
+        div h3{
+            color: blueviolet;
+            border-top-style:dotted ;
+            border-right-style:dashed ;
+            border-bottom-style: solid;
+            border-left-style:double ;
+            border-top-color:red ;
+            border-right-color: brown;
+            border-bottom-color: pink;
+            border-left-color:turquoise ;
+            border-top-width:5px ;
+            border-right-width: 6px;
+            border-bottom-width: 7px;
+            border-left-width: 10px;
+            padding:5px ;
+            text-align: center;
+            margin: 50px;
+            height: 25px;
+            width:max-content;
+            background-color:mediumspringgreen;
+            
+
+
+
+        }
+        div>p{
+            background-color:rgb(145, 192, 98,0.5);
+        }
+        h3+p{
+            background-color: rgba(191, 191, 177, 0.5);
+            border-style: solid dashed dotted double;
+            border-width: 5px 6px 7px 10px;
+            border-color: red purple green violet;
+            
+        }
+        h3~p{
+            background-color: rgba(191, 191, 177,0.5);
+        }
+        a:link{
+           color: blueviolet;
+        }
+        a:visited{
+           color: blue;
+        }
+        a:hover{
+           color:pink;
+        }
+        a:active{
+           color: brown;
+        }
+        #para:hover{
+            /* background-color: cornflowerblue; */
+        }
+        div:hover{
+            background-color: rgba(175, 231, 120,0.5);
+        }
+        #sp{
+            color: crimson;
+            border-top:5px ridge purple ;
+            border-right: 7px groove violet;
+            border-bottom:8px double darkmagenta ;
+            border-left:10px dashed indigo ;
+            border-radius: 10px;
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+    <h1 id="main">cascading style sheets</h1>
+    <div id=para>
+    <h3>lorem ipsum</h3>
+    <p class="p1">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+    <p class="p2">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+    <p class="p3">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+    <p class="p4">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+    <p class="p5">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+    <span id="sp">hello there!</span>
+    </div>
+<a href="css_4.html">click</a><br>
+<a target="_blank" href="css_8.html">click here</a>
+</body>
+</html>
