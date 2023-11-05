@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        div{
+            background-color: blueviolet;
+            padding: 25px;
+            color: white;
+        }
+        /* @media (min-width:500px)
+        {
+            div{
+                background-color: brown;
+            }
+        } */
+        /* @media(min-width:300px) and (max-width:600px)
+        {
+            div{
+                background-color: brown;
+            }
+        } */
+        /* @media (not(min-width:300px)) and (max-width:600px)
+        {
+            div{
+                background-color: brown;
+            }
+        }  */
+        @media print
+        {
+            div{color: red;}
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h3>hello world!!</h3>
+    </div>
+    
+</body>
+</html>
