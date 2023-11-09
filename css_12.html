@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        #main{
+            
+        }
+        .para{
+            border:3px solid black ;
+            width:25px ;
+            height: 25px;
+           padding: 25px;
+        text-align: center;
+        background-color: rgb(136, 136, 196);
+        color: firebrick;
+        margin: 25px;
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            
+           
+         } 
+         #main1{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items:center;
+            
+         } 
+         #p1{
+            border:3px solid black ;
+            width:25px ;
+            height: 25px;
+           padding: 25px;
+        text-align: center;
+        background-color: rgb(36, 36, 132);
+        color: firebrick;
+        /* align-self: flex-start; */
+         }
+         #p2{
+            border:3px solid black ;
+            width:25px ;
+            height: 25px;
+           padding: 25px;
+        text-align: center;
+        background-color: rgb(36, 36, 132);
+        color: firebrick;
+        align-self: flex-start;
+         }
+         #p3{
+            border:3px solid black ;
+            width:25px ;
+            height: 25px;
+           padding: 25px;
+        text-align: center;
+        background-color: rgb(36, 36, 132);
+        color: firebrick;
+        /* align-self: flex-start; */
+         }
+    </style>
+</head>
+<body>
+    <h1>flexbox</h1>
+    <div id="main">
+        <p class="para">1</p>
+        <p class="para">2</p>
+    </div>
+        <div id="main1">
+        <p id="p1">3</p>
+        <p id="p2" >4</p>
+        <p id="p3">5</p>
+    </div>
+   
+    
+</body>
+</html>
