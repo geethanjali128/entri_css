@@ -1,0 +1,12 @@
+div{
+    background-color: aqua;
+}
+.para{
+    background-color: aqua;
+    color: black;
+    font-size: big;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    background-color: blueviolet;
+}
