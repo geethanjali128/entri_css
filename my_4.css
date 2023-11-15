@@ -1,0 +1,26 @@
+div h5{
+    background-color: rgb(230, 185, 117);
+    color: blue;
+}
+div>p{
+    background-color: rgb(125, 232, 231);
+    color: brown;
+    
+}
+h1+h4{
+    background-color: aquamarine;
+    font-size:20px;
+    color: rgb(63, 188, 52);
+}
+h1~div{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: chartreuse;}
+#main{
+    text-align: center;
+    background-color: rgb(223, 136, 154);
+    color: rgb(82, 24, 219);
+}
+*{
+    background-color: lightgreen;
+}
+   
+    
