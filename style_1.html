@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+        #heading::first-letter{
+            font-size: 50px;
+            color: blueviolet;
+        }
+        pre::first-line{
+            font-size: 18px;
+            color: cadetblue;
+        }
+        h4::before{
+            content: "hello ";
+            font-size: 20px;
+            color: gold;
+        }
+        #heading::after{
+            content: " explanation:";
+
+        }
+       #head:first-child{
+            color: blue;
+       }
+       pre:last-child{
+        color: chocolate;
+       }
+       div:nth-child(3){
+        color: chartreuse;
+       }
+       #this:hover{
+            background-color: darkkhaki;
+       }
+       #this{
+        border: 5px solid red;
+        height:15px;
+       }
+       input[type=checkbox]:checked+label{
+        color:purple;
+        background-color: aquamarine;
+       }
+    </style>
+</head>
+<body>
+    <h3 id="heading">classes and id's</h3>
+    <h4 id="header">entities and emojis</h4>
+    <div>
+        <h3 id="head">block elements &alpha;</h3>
+        <p class="p1">&#128591;<span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen
+            book.</p>
+        <q>Lorem Ipsum</q>
+        <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+        <pre class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimenbook.&#128591;</pre>
+    </div>
+    <form>
+        <label for="gender">Female</label>
+        <input type="checkbox" id="gender" name="gender" value=""><br>
+    <label for="gender">Male</label>
+        <input type="checkbox" id="gender" name="gender" value=""><br>
+        <label for="gender">Others</label>
+        <input type="checkbox" id="gender" name="gender" value="">
+    </form>
+    <div id="this"></div>
+
+    
+</body>
+</html>
