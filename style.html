@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <style>
+        #head{
+            color: blueviolet;
+        }
+        .p1{
+            color: coral;
+        }
+        *{
+            background-color: rgb(221, 203, 179);
+            opacity: 0.9;
+        }
+        div>p{
+            background-color:greenyellow;
+        }
+        div h3{
+            background-color: rgb(225, 154, 154);
+        }
+        p+q{
+           color: darkmagenta;
+        }
+        h3~pre{
+            background-color: greenyellow;
+        }
+
+    </style>
+<link rel="stylesheet" href="./sheet.css">
+
+    
+</head>
+
+<body >
+    <h3 id="heading">classes and id's</h3>
+    <h4 id="header">entities and emojis</h4>
+    <div>
+        <h3 id="head">block elements &alpha;</h3>
+        <p class="p1">&#128591;<span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen
+            book.</p>
+            <q>Lorem Ipsum</q>
+        <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+        <pre class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimenbook.&#128591;</pre>
+
+
+    </div>
+
+</body>
+
+</html>
