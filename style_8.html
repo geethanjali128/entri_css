@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        #d{
+            border: 3px solid black;
+        }
+        #d1{
+            border: 3px solid black;
+        }
+        /* @media(min-width:950px){
+            #d{
+                background-color: blue;
+            }
+        } */
+        @media print{
+            #d{
+                color: chartreuse;
+            }
+        }
+        @media (min-width:300px) and (max-width:900px){
+            #d{
+                background-color: blue;
+            }
+        }
+        @media screen,print{
+            #d1{
+                color: brown;
+            }
+        }
+        @media(min-height:500px){
+            #d1{
+                background-color: chartreuse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="d">hello</div>
+    <div id="d1">bye</div>
+    
+</body>
+</html>
